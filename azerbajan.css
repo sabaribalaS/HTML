@@ -1,0 +1,63 @@
+*{
+  margin:0;
+  padding:0;
+}
+.azFlag {
+	width: 750px;
+	height: 125px;
+	background: #e00034;
+  margin:0 auto;
+	border-top: 125px solid #0097c3;
+	border-bottom: 125px solid #00ae65;
+	z-index: -1
+}
+.crescent {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background: #e00034;
+	margin: 12px auto;
+	box-shadow: -10px 0 0 7px #fff
+}
+#star {
+	background: 0 0;
+	width: 39px;
+	height: 0;
+	position: relative;
+	top: 35px;
+	left: 65px;
+	border-top: solid 15px #fff;
+	border-bottom: solid 15px #fff;
+	border-left: solid 15px transparent;
+	border-right: solid 15px transparent;
+	-webkit-transform: rotate(70deg);
+	-ms-transform: rotate(70deg);
+	-o-transform: rotate(70deg);
+	transform: rotate(70deg)
+}
+#star:before {
+	content: "";
+	background: 0 0;
+	width: 39px;
+	height: 0;
+	position: absolute;
+	top: -15px;
+	left: -15px;
+	border-top: solid 15px #fff;
+	border-bottom: solid 15px #fff;
+	border-left: solid 15px transparent;
+	border-right: solid 15px transparent;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg)
+}
+.circle {
+	width: 39px;
+	height: 39px;
+	border-radius: 100%;
+	background: #fff;
+	position: relative;
+	top: -20px;
+	left: 0
+}

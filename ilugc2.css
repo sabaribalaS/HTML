@@ -1,0 +1,47 @@
+.ilugc, .indian
+{
+text-transform:uppercase;
+padding: 10px;
+}
+.ilugc
+{
+font-size:20px;
+}
+
+.indian
+{
+color:red;
+text-decoration-line:overline;
+text-decoration-color:#ebebeb;
+}
+
+   ul
+{
+display:flex;
+list-style-type:none;
+background:black;
+color:white;
+border-bottom:3px solid red;
+}
+a
+{
+text-decoration: none; 
+color: white; 
+}
+li
+{
+padding:10px;
+text-transform:uppercase;
+border-right: 0.5px solid #404040;
+
+}
+li:nth-child(6)
+{
+border:none; 
+}
+
+
+li:hover
+{
+background:red; 
+}
